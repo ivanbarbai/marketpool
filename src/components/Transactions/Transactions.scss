@@ -1,0 +1,29 @@
+.item-details {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 12px;
+    color: #2d2d2d;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+
+    .item-name {}
+
+    .item-price {}
+}
+
+.item-sell{
+    background: #ecfaef;
+    color: #2cce78;
+}
+
+.item-withdraw{
+    background: #ffd0d0;
+    color: #fa5b37;
+}

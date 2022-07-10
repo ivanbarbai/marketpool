@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from "./components/Home";
-import Items from "./components/Items";
-import Transactions from "./components/Transactions";
-import Statistics from "./components/Statistics";
-import Navbar from "./components/Navbar";
+import Home from "./components/Home/Home";
+import Items from "./components/Items/Items";
+import Transactions from "./components/Transactions/Transactions";
+import Statistics from "./components/Reports/Statistics";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
 
