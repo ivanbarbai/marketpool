@@ -12,10 +12,15 @@ const Navbar = () => {
     const {logout, loading } = useAuth();
 
     const handleLogout = async () => {
-        await logout();
+        try{
+            await logout();
+        }
+        catch (error){
+            console.error(error);
+        }
+    };
 
-        if (loading) return <h1>loading</h1>
-    }
+    if (loading) return <h1>loading</h1>;
 
     return (
         <div className='navbar'>

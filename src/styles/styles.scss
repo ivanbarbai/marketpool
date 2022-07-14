@@ -4,6 +4,7 @@
 @import '../components/Reports/Reports.scss';
 @import '../components/Transactions/Transactions.scss';
 @import '../components/Register/Register.scss';
+@import '../components/Login/Login.scss';
 
 * {
     @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -113,6 +114,7 @@ h6 {
         justify-content: flex-start;
         align-items: center;
         box-sizing: border-box;
+        flex-direction: column;
     }
 }
 
@@ -189,11 +191,81 @@ h6 {
     color: #ffd0d0;
 }
 
-.no-decoration{
+.no-decoration {
     text-decoration: none;
 }
 
-.error-text{
+.error-text {
     font-size: 12px;
     color: red;
+}
+
+.card-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #1e9df7;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    min-width: 140px;
+    column-gap: 8px;
+    transition: all ease-in-out 0.2s;
+}
+
+.btn-primary:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #303030;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    min-width: 140px;
+    column-gap: 8px;
+    transition: all ease-in-out 0.2s;
+}
+
+.outter-card-section {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    box-sizing: border-box;
+    margin: 24px auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column-50 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.no-account {
+    font-size: 12px;
+    cursor: default;
 }

@@ -1,0 +1,39 @@
+.submitForm-Google {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    color: #1e9df7;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 14px;
+    box-sizing: border-box;
+    column-gap: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    border: 0.1px solid #1e9df7;
+    transition: all ease-in-out 0.2s;
+}
+
+.submitForm-Google:hover {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: #303030;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 14px;
+    box-sizing: border-box;
+    column-gap: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    border: 0.5px solid #303030;
+    transition: all ease-in-out 0.2s;
+}
